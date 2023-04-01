@@ -8,7 +8,6 @@
 #include "MassObserverProcessor.h"
 #include "RandomizedTransformTrait.generated.h"
 
-//This is a pretty big fragment... I think this is the wrong way of doing this... Probably belongs elsewhere.
 USTRUCT()
 struct SILENTWORLD_API FRandomizedTransformFragment : public FMassFragment
 {
@@ -23,7 +22,7 @@ struct SILENTWORLD_API FRandomizedTransformFragment : public FMassFragment
 };
 
 /**
- * 
+ * A trait that provides randomness to a given entity's transform on creation.
  */
 UCLASS()
 class SILENTWORLD_API URandomizedTransformTrait : public UMassEntityTraitBase

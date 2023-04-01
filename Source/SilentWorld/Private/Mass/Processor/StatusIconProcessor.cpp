@@ -1,6 +1,5 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-
 #include "Mass/Processor/StatusIconProcessor.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/LocalPlayer.h"

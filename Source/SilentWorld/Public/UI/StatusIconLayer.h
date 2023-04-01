@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
+
+#pragma once
 
 #include "Slate/SGameLayerManager.h"
 #include "Widgets/SWidget.h"

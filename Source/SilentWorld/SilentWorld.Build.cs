@@ -15,11 +15,8 @@ public class SilentWorld : ModuleRules
         
 		PublicDependencyModuleNames.AddRange(new string[] { "StructUtils", "MassCommon", "MassEntity", "MassSpawner" });
 
-		if (Target.Type != TargetType.Server)
-		{
-			PublicDependencyModuleNames.AddRange(new string[] { "SlateCore", "Slate", "UMG" });
-		}
-
+		PublicDependencyModuleNames.AddRange(new string[] { "SlateCore", "Slate", "UMG" });
+		
 		if (Target.Type == TargetType.Editor)
 		{
 			PublicDependencyModuleNames.AddRange(new string[] { "UnrealEd" });

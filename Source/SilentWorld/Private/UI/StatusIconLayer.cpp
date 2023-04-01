@@ -1,4 +1,6 @@
-﻿#include "UI/StatusIconLayer.h"
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "UI/StatusIconLayer.h"
 #include "MassProcessor.h"
 #include "MassEntitySubsystem.h"
 #include "Blueprint/WidgetLayoutLibrary.h"
